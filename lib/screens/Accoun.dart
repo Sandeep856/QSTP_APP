@@ -181,9 +181,3 @@ class _AccountState extends State<Account> {
     );
   }
 }
-
-class UserData {
-  User? _user = FirebaseAuth.instance.currentUser;
-
-  void fxn() {}
-}
